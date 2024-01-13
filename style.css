@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&family=Rancho&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.banner{
+    width: 110%;
+    height: 100vh;
+    background-image:url('./images/tagore.PNG');
+    background-size: cover;
+    background-position: center;
+
+}  
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translateY(60%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    text-shadow: 2px 2px black;
+    text-decoration-line: underline;
+}
+.about {
+    background-color:black;
+    padding: 3%;
+    
+}
+.about h2{
+    position:relative;
+    padding: 5%;
+    text-align: center;
+    color: #fff;
+    text-decoration-line: underline;
+}
+.about span{
+    text-transform: uppercase;
+    color: brown;
+    font-size:x-large;
+
+}
+.about p{
+    color: #fff;
+   line-height: 1.5;
+}
+.about #p1{
+    text-indent: 30%;
+}
+.box{
+    background-color: #fafafa;
+    padding-top: 10%;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content:space-around;
+    flex-direction: row;
+    
+}
+.achieve h2{
+    position:absolute;
+    left: 40%;
+    padding: 3%;
+    text-decoration: underline;
+}
+.box1{
+    background-color: black;
+    color: #fff;
+    padding: 5%;
+    transition: transform .2s;
+    line-height: 1.5;
+}
+.box1:hover{
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1); /* Safari 3-8 */
+        transform: scale(1.2); 
+}
+.box2{
+    background-color: black;
+    color: #fff;
+    padding: 3%;
+    transition: transform .2s;
+    line-height: 1.5;
+}
+.box2:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.box3{
+    background-color: black;
+    color: #fff;
+    padding: 3%;
+    transition: transform .2s;
+    line-height: 1.5;
+}
+.box3:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.box4{
+    background-color: black;
+    color: #fff;
+    padding: 5%;
+    transition: transform .2s;
+    line-height: 1.5;
+}
+.box4:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.box5{
+    background-color: black;
+    color: #fff;
+    padding: 6%;
+    transition: transform .2s;
+    line-height: 1.5;
+}
+.box5:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+.book{
+    background-color: black;
+    margin-top:30px;
+}
+
+.book h2{
+        position:relative;
+        left: 40%;
+        padding: 6%;
+        text-decoration: underline;
+        color: white;
+}
+
+.flip{
+    display: flex;
+    gap: 10px;
+    justify-content:space-around;
+    flex-direction: row;
+    padding-bottom: 9%;
+    
+}
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #161515;
+    color: black;
+  }
+  
+  .flip-card-back {
+    padding: 5%;
+    background-color: #fbffff;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+  }
+  button{
+    margin-top: 10%;
+    padding: 2%;
+  }
+
+  .footer h2{
+    color: rgb(0, 0, 0);
+    padding: 3%;
+  }
+
+  .footer {
+    background-color: rgb(255, 250, 250);
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+ }
+ .footer img{
+    width: 40px;
+    height: 40px;
+ }
